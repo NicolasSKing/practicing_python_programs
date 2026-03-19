@@ -1,7 +1,7 @@
 all_of_the_numbers = []
 while True:
     try:
-        numbers = float(input("Enter a number: "))
+        numbers = float(input("Please enter a number: "))
         all_of_the_numbers.append(numbers)
     except ValueError:
         break
