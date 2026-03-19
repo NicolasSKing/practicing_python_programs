@@ -2,7 +2,7 @@ all_of_the_numbers = []
 sum_of_the_numbers = 0
 while True:
     try:
-        numbers = float(input("Enter a number: "))
+        numbers = float(input("Please Enter a number: "))
         sum_of_the_numbers += numbers
         all_of_the_numbers.append(numbers)
     except ValueError:
