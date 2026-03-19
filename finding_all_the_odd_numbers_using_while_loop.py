@@ -1,9 +1,9 @@
-odd_numbers = []
+every_odd_numbers = []
 count = 0
 while count < 2:
     for i in range(101):
         if i % 2 != 0:
-            odd_numbers.append(i)
+            every_odd_numbers.append(i)
             count += 1
-print(odd_numbers)
+print(every_odd_numbers)
 
