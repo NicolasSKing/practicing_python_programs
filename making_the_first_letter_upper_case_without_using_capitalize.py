@@ -13,4 +13,4 @@ if text:
             result += lower[upper.index(ch)]
         else:
             result += ch
-print("Capitalized:", result)
+print(result)
